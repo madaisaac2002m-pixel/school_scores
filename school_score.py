@@ -13,7 +13,7 @@ for item, price in whls_items.items():
     st.write(f"nice price{item}")
 
 df = pd.DataFrame(list(whls_items.items()),columns=["item","price(mk)"])
-df["price(mk)" ].df["price(mk)"].apply(lambda x: f"mk{x:,}") 
+df["price(mk)"] = df["price(mk)"].apply(lambda x: f"mk{x:,}") 
 
 st.table(df)
                    
