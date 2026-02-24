@@ -7,5 +7,5 @@ whls_items = {
 
 st.write("mitengo ya katundu yemwe ali pa msika panopa")
 
-whls_items.items()
+whls_items.items():
 st.write(f"take this {item} tengo wake {price:,}")
